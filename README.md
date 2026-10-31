@@ -64,3 +64,20 @@ Q. What is dependency injection ?
 
 Dependency injection (DI) in Python is a design pattern where an object receives its dependencies from an external source rather than creating them itself. This technique promotes loose coupling, simplified unit testing, and highly modular code
 
+
+Q. 
+Quick Comparison
+
+
+Feature	                  One-Shot Prompting	                                                              Few-Shot Prompting
+Number of Examples	        1 example                                                                  	2 to 10 examples (commonly 3–5)
+Task Complexity	              Simple tasks, formatting, basic style	                                    Complex, nuanced, or custom tasks
+Accuracy	                    Good for basic alignment	                                                Higher consistency and precision
+Token Usage	                  Economical / Low	                                                        Higher (uses more of the context window)
+Preparation Time	            Fast (write one example)	                                                Moderate to high (craft multiple diverse examples)
+
+
+Q. what is prompt engineering? 
+
+Prompt engineering is the art and science of designing, structuring, and refining text instructions (prompts) to guide artificial intelligence models—especially large language models (LLMs) like ChatGPT or Claude—toward generating accurate, relevant, and useful outputs.
+
