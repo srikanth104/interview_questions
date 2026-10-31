@@ -25,4 +25,13 @@ Keyword Search (Lexical Search)
 Semantic Search
 How it works: It uses Artificial Intelligence (AI), Natural Language Processing (NLP), and vector embeddings (turning text into mathematical representations in a high-dimensional space). It compares the meaning of the query to the meaning of the documents.
 
+Q. what is attention? 
+
+Attention in Large Language Models (LLMs) is a mathematical mechanism that allows a model to focus on specific parts of a text when processing or generating a word, exactly like how a human pays attention to context clues when reading a sentence.
+
+Q. What is Idempotency in the Context of REST APIs
+In REST APIs, idempotence means that repeating the same request has the same effect as making it once, leaving the server in the same state. This makes API operations safe to retry without causing unintended changes.
+
+It is especially important in distributed systems, where network failures or timeouts may require clients to resend requests. HTTP defines idempotency to ensure retries do not create duplicate operations or data inconsistencies. For example, if a profile update request times out, it can be safely retried without creating multiple records.
+
 
