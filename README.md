@@ -34,4 +34,7 @@ In REST APIs, idempotence means that repeating the same request has the same eff
 
 It is especially important in distributed systems, where network failures or timeouts may require clients to resend requests. HTTP defines idempotency to ensure retries do not create duplicate operations or data inconsistencies. For example, if a profile update request times out, it can be safely retried without creating multiple records.
 
+Q. Difference between Deep Learning and Machine Learning? 
+
+https://www.geeksforgeeks.org/artificial-intelligence/difference-between-machine-learning-and-deep-learning/
 
