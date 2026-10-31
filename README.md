@@ -38,3 +38,24 @@ Q. Difference between Deep Learning and Machine Learning?
 
 https://www.geeksforgeeks.org/artificial-intelligence/difference-between-machine-learning-and-deep-learning/
 
+
+Q. what is the different between langchain and langgraph ? 
+
+Core Architecture & Flow
+
+• LangChain: Uses a linear, step-by-step sequential workflow where the output of one step feeds directly into the next (using pipeline or chain syntax like chain1 | chain2). Best suited for straightforward pipelines.
+• LangGraph: Uses a graph-based state machine architecture built with nodes (actions) and edges (transitions). It explicitly supports non-linear flows, loops, cycles, and branching paths.
+
+State & Memory Management
+
+• LangChain: Implements implicit or limited state management, mainly tracking basic chat history or passing context sequentially without persistent multi-turn states across complex branches.
+• LangGraph: Features explicit, persistent state management and built-in checkpoints. This allows applications to pause, wait for human-in-the-loop review, and resume right where they left off.
+
+Use Cases & Complexity
+
+• LangChain: Ideal for simple chatbots, single-agent tasks, document retrieval (RAG), text summarization, and quick prototyping. It offers 600+ out-of-the-box integrations for connecting to APIs and vector databases.
+• LangGraph: Built for complex multi-agent systems, dynamic AI pipelines, conditional logic, and long-running or real-time interactive tasks.
+
+How They Work Together
+
+• They are not mutually exclusive; they belong to the same ecosystem. In fact, newer versions of LangChain use LangGraph under the hood for agent execution. You can use LangChain for modular tool integrations and LangGraph to orchestrate the heavy multi-agent workflow.
