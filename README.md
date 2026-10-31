@@ -59,3 +59,8 @@ Use Cases & Complexity
 How They Work Together
 
 • They are not mutually exclusive; they belong to the same ecosystem. In fact, newer versions of LangChain use LangGraph under the hood for agent execution. You can use LangChain for modular tool integrations and LangGraph to orchestrate the heavy multi-agent workflow.
+
+Q. What is dependency injection ? 
+
+Dependency injection (DI) in Python is a design pattern where an object receives its dependencies from an external source rather than creating them itself. This technique promotes loose coupling, simplified unit testing, and highly modular code
+
