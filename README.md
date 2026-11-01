@@ -81,3 +81,10 @@ Q. what is prompt engineering?
 
 Prompt engineering is the art and science of designing, structuring, and refining text instructions (prompts) to guide artificial intelligence models—especially large language models (LLMs) like ChatGPT or Claude—toward generating accurate, relevant, and useful outputs.
 
+Q. what is RLHf ? 
+https://aws.amazon.com/what-is/reinforcement-learning-from-human-feedback/
+
+
+Q. How do you evaluate an LLM ? 
+https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation
+
