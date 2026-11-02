@@ -88,3 +88,7 @@ https://aws.amazon.com/what-is/reinforcement-learning-from-human-feedback/
 Q. How do you evaluate an LLM ? 
 https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation
 
+Q. What is Hyperparamter ? 
+
+Q. What is KV cache? 
+
