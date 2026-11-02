@@ -92,3 +92,9 @@ Q. What is Hyperparamter ?
 
 Q. What is KV cache? 
 
+Q. Progressive disclosure?
+
+Q.  Why do we need to append the assistant's tool-call message to messages before appending the tool result? 
+We append the assistant's message not just to preserve conversation history, but also to maintain the tool-calling protocol."
+
+
